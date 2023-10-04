@@ -10,7 +10,7 @@ p {
     text-align: justify;
 }
 span{
-    color:rgb(159, 53, 235);
+    color:rgba(248, 240, 240, 0.986);
     text-decoration: underline;
 }
 
@@ -27,5 +27,7 @@ span{
 .content{
     width: 400px;
     height: 200px;  
-    background-color: red;
+    background-color: rgb(255, 153, 0);
    }
+.texto-azul{color: blue;}
+.featured{font-weight: bold;}
