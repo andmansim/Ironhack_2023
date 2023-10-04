@@ -1,5 +1,5 @@
 h1 {
-    color: pink; 
+    color: rgb(94, 9, 76); 
     text-decoration: underline; 
    }
    
@@ -10,22 +10,21 @@ h1 {
      text-align: justify;
    }
    span{
-    color:rgb(216, 182, 14);
+    color:rgb(159, 53, 235);
     text-decoration: underline
     
    }
    .blue-box{background-color: aqua;}
    .red-box{background-color: rgb(224, 130, 130);}
    .purple-box{background-color: rgb(205, 154, 205);}
-   .body{
-        background-color: #00D1AE;
-   }
-   .menu{
+   
+body{background-color: #00D1AE;}
+.menu{
     width: 400px;
     height: 50px;
     background-color: #00D1AE;
    }
-   .content{
+.content{
     width: 400px;
     height: 200px;  
     background-color: red;
