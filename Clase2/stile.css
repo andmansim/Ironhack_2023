@@ -10,19 +10,19 @@ p {
     text-align: justify;
 }
 span{
-color:rgb(159, 53, 235);
-text-decoration: underline
-
+    color:rgb(159, 53, 235);
+    text-decoration: underline;
 }
+
 .blue-box{background-color: aqua;}
 .red-box{background-color: rgb(224, 130, 130);}
 .purple-box{background-color: rgb(205, 154, 205);}
 
-body{background-color: #00D1AE;}
+.body{background-color: #00D1AE;}
 .menu{
     width: 400px;
     height: 50px;
-    background-color: #00D1AE;
+    background-color: #1fd762;
    }
 .content{
     width: 400px;
