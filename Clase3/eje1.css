@@ -1,18 +1,32 @@
 div{
-  border: 2px solid #0712;
+  border: solid;
   width: 100px;
-  float: left; 
-  
+  float: left;   
 }
-#div1, #div4, #div7 {
+#patata1, #patata4, #patata7 {
+  border-color: rgba(58, 197, 79, 0.133);
+  padding: 20px, 15px, 30px, 25px;
   height: 150px;
-  width: 100px;
+
 }
-#div2, #div5, #div9 {
+#patata2, #patata5, #patata9 {
+  border-color: rgba(77, 0, 119, 0.133);
+  padding: 20px, 15px, 30px, 25px;
   height: 50px;
-  width: 150px;
+
 }
-#div3, #div6, #div8 {
+#patata3, #patata6, #patata8 {
+  border-color: rgba(187, 157, 22, 0.133);
+  padding: 20px, 15px, 30px, 25px;
   height: 80px;
-  width: 80px;
+
+}
+.margen-derecha{
+  margin-right: 80px;
+}
+.margen-inferior{
+  margin-bottom: 5px;
+}
+#patata, #patata01, #patata02{
+  border-width: 0px;
 }
