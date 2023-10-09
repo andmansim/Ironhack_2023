@@ -1,5 +1,14 @@
 div {
-  border: 2px solid #0712;
+  border: 20px solid #0712;
   width: 100px;
   float: left; 
+}
+#div1, #div4, #div7 {
+  height: 150px;
+}
+#div2, #div5, #div9 {
+  height: 50px;
+}
+#div3, #div6, #div8 {
+  height: 80px;
 }
