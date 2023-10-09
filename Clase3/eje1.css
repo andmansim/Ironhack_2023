@@ -1,5 +1,7 @@
 div {
-    border: 1px solid black;
-    width: 100px;
+    background-color: #0712;
+    border-radius: 50%;
     height: 100px;
-}
+    width: 100px;  
+    padding:20px 15px 35px 35px;
+  }
