@@ -5,22 +5,22 @@ div{
   padding: 20px, 15px, 30px, 25px;  
 }
 #patata1, #patata4, #patata7 {
-  border-color: rgba(58, 197, 79, 0.133);
+  border-color: rgba(58, 197, 79, 0.84);
   height: 150px;
 
 }
 #patata2, #patata5, #patata9 {
-  border-color: rgba(77, 0, 119, 0.133);
+  border-color: rgba(77, 0, 119, 0.653);
   height: 50px;
 
 }
 #patata3, #patata6, #patata8 {
-  border-color: rgba(187, 157, 22, 0.133);
+  border-color: rgba(187, 157, 22, 0.76);
   height: 80px;
 
 }
 .margen-derecha{
-  margin-right: 80px;
+  margin-right: 10px;
 }
 .margen-inferior{
   margin-bottom: 5px;
