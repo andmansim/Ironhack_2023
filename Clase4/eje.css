@@ -5,11 +5,22 @@
     text-align: center;
     padding: 10px;
 }
-#parrafo1, #parrafo2, #parrafo3{
-   text-align: center;
-   font-size: 7px;
+h1{
+    text-align: flex-start;
+    font-size: 20px;
+    padding: 10px;
+}
+h2{
+    text-align: flex-start;
+    font-size: 10px;
+    padding: 0px;
 }
 
+#parrafo1, #parrafo2, #parrafo3{
+   text-align: center;
+   font-size: 10px;
+}
 #parte3{
-    flex-direction: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
