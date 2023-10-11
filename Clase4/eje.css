@@ -1,13 +1,13 @@
-header{
+#header1{
     background-color: palevioletred;
-    height: 100px;
+    width: 100px;
 }
-#parte3{
+.parte3{
     justify-content: flex-end;
 }
-#parte2{
+.parte2{
     justify-content: flex-start;
 }
-#parte1{
+.parte1{
     justify-content: center;
 }
