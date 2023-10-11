@@ -3,10 +3,13 @@
     width: 100%;
     font-size: 40px;
     text-align: center;
+    padding: 10px;
 }
-#parrafo3, #parrafo2, #parrafo1{
+#parrafo1, #parrafo2, #parrafo3{
    text-align: center;
+   font-size: 7px;
 }
+
 #parte3{
-    justify-content: flex-end;
+    flex-direction: flex-end;
 }
