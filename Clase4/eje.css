@@ -2,3 +2,12 @@ header{
     background-color: palevioletred;
     height: 100px;
 }
+#parte3{
+    justify-content: flex-end;
+}
+#parte2{
+    justify-content: flex-start;
+}
+#parte1{
+    justify-content: center;
+}
