@@ -1,13 +1,12 @@
 #header1{
     background-color: palevioletred;
-    width: 100px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
 }
-.parte3{
+#parrafo3, #parrafo2, #parrafo1{
+   text-align: center;
+}
+#parte3{
     justify-content: flex-end;
-}
-.parte2{
-    justify-content: flex-start;
-}
-.parte1{
-    justify-content: center;
 }
