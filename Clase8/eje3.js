@@ -5,7 +5,8 @@ while (counter >= 0) {
     counter -=1;
 }
 
-//Usamos un bucle qu baja desde 10 hasta 0, pero en algunos números pone ... y cuando llega a 0 --> Boom!
+//Usamos un bucle que baja desde 10 hasta 0, pero en algunos números pone ... y cuando llega a 0 --> Boom!
+//No va y no está terminado
 let puntos = false;
 for (let i = 10; i >= 0; i --) {
     console.log(i);
@@ -19,3 +20,18 @@ for (let i = 10; i >= 0; i --) {
         console.log("BOOM!");
     }
 }  
+
+//Creamos un bucle que sume desde 1 hasta 50
+for (let i = 1; i <= 50; i++) {
+  //Si el número es divisible por 5, lo imprime
+  //Si el número es divisible por 10 o por 15, imprime Donkey!
+  //Si el número es impar y no es divisible por 10, imprime Monkey!
+    if (i % 5 == 0){ 
+      continue;
+    } else if (i % 10 == 0 || i % 15 == 0){ 
+      console.log('Donkey!')
+    } else if (i % 2 != 0 && (i-1) % 10 !=0){ 
+      console.log('Monkey!')
+    }
+    console.log(i);
+  }
