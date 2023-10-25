@@ -26,12 +26,15 @@ for (let i = 1; i <= 50; i++) {
   //Si el número es divisible por 5, lo imprime
   //Si el número es divisible por 10 o por 15, imprime Donkey!
   //Si el número es impar y no es divisible por 10, imprime Monkey!
-    if (i % 5 == 0){ 
-      continue;
-    } else if (i % 10 == 0 || i % 15 == 0){ 
+    
+    if (i % 10 == 0 || i % 15 == 0){ 
       console.log('Donkey!')
-    } else if (i % 2 != 0 && (i-1) % 10 !=0){ 
+    } 
+    if (i % 2 != 0 && (i-1) % 10 !=0){ 
       console.log('Monkey!')
     }
+    if (i % 5 == 0){ 
+        continue;
+    } 
     console.log(i);
   }
