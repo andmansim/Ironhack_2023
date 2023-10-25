@@ -5,10 +5,13 @@ while (counter >= 0) {
     counter -=1;
 }
 
-//Usamos un bucle que baja desde 10 hasta 0, pero en algunos números pone ... y cuando llega a 0 --> Boom!
+//Usamos un bucle que baja desde 10 hasta 0
 //No va y no está terminado
 let puntos = false;
 for (let i = 10; i >= 0; i --) {
+    //Si el número es mayor o igual a 8, lo imprime
+    //Si el número es menor a 8 y mayor a 2, imprime ...
+    //Si el número es 0, imprime BOOM!
     console.log(i);
     if (i>=8){
         console.log(i);
