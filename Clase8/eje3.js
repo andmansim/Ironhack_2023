@@ -5,10 +5,17 @@ while (counter >= 0) {
     counter -=1;
 }
 
-//Usamos un bucle qu baja desde 10 hasta 0 y cuando llega a 0 --> Boom!
+//Usamos un bucle qu baja desde 10 hasta 0, pero en algunos números pone ... y cuando llega a 0 --> Boom!
+let puntos = false;
 for (let i = 10; i >= 0; i --) {
     console.log(i);
-    if (i===0){
-        console.log('¡Boom!')
+    if (i>=8){
+        console.log(i);
+    } else if (i<8 & i>2 & puntos == false ) {
+        console.log("...");
+        puntos = true;
     }
-}
+    else if (i===0) {
+        console.log("BOOM!");
+    }
+}  
