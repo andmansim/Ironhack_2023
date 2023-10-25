@@ -1,3 +1,4 @@
+//Objetivo: enseñar el tipo de fruta según el nombre ingresado usando switch
 let type = "";
 const fruit  = prompt ("Enter the fruit name:");
 switch (fruit){
