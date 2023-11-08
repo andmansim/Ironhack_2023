@@ -6,3 +6,5 @@ let letrasCiudad = cities.map(function letras(ciudad){
   let letra = ciudad[0].toUpperCase(); //De cada elemento cogemos el primero y lo ponemos en mayúsculas
   return letra});
 console.log(letrasCiudad);
+
+
