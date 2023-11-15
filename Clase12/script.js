@@ -17,21 +17,21 @@ function checkGuess(e){
 
   //Ponemos la lógica del código: le avisamos si se pasa, acierta o no llega y el número de intentos que lleva
   if (contador > intento){
-    boton.onclick = function(e) {alert(`No te quedan más intentos! El número era ${secretNumber}`);
+    boton.onclick = function(e) {alert(`No te quedan más intentos! El número era ${secretNumber}`);}
+  }else{
+    if (respuesta == secretNumber) {
+      alert(`Lo has acertado! Número de intentos ${contador}`);
+    
+    } else if (respuesta > secretNumber) {
+      alert(`Muy alto! Intento ${contador}`);
+      contador++;
+    
+    } else if (respuesta < secretNumber){ 
+      alert(`Muy bajo! Intento ${contador}`);
+      contador++;
+    }
+  
   }
-  if (respuesta == secretNumber) {
-    alert(`Lo has acertado! Número de intentos ${contador}`);
-  
-  } else if (respuesta > secretNumber) {
-    alert(`Muy alto! Intento ${contador}`);
-    contador++;
-  
-  } else if (respuesta < secretNumber){ 
-    alert(`Muy bajo! Intento ${contador}`);
-    contador++;
-  }
-  
-}
 }
 function dificultad(){
   let dificultad = prompt('Elige dificultad: 1, 2 o 3');
