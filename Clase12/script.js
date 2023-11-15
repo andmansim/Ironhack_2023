@@ -34,7 +34,7 @@ function checkGuess(e){
   }
 }
 function dificultad(){
-  let dificultad = prompt('Elige dificultad: 1, 2 o 3');
+  let dificultad = prompt('Elige dificultad: 1(Muy fácil), 2(Fácil) o 3(Dificil)');
   if (dificultad == '1'){
     intento = 20;
     alert('Tienes 20 intentos');
