@@ -33,6 +33,7 @@ function checkGuess(e){
   
   }
 }
+//Función que elige la dificultad
 function dificultad(){
   let dificultad = prompt('Elige dificultad: 1(Muy fácil), 2(Fácil) o 3(Dificil)');
   if (dificultad == '1'){
